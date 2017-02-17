@@ -1,0 +1,34 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+
+
+.rightList__submenu {
+	background: none repeat scroll 0 0 #DDDDDD;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 90px;
+    display: none;
+    opacity: 1;
+}
+.submenu__list {
+	
+}
+.submenu__link {
+	display: block;
+    font-family: 'Lato';
+    font-weight: bold;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #1b81d8;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.submenu__link:hover {
+	background: none repeat scroll 0 0 #ADD8E6;
+    color: #a2403d;
+
+}
