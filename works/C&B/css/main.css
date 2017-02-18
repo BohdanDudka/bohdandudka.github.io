@@ -257,7 +257,6 @@ body {
 .gallery__link {
 	text-decoration: none;
 	color: #000;
-	position: relative;
 }
 
 .gallery__markNew {
@@ -352,7 +351,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	padding: 69px 0 29px 0;
 	letter-spacing: 1px;
-	color: #4d728c;
+	color: #fff;
 } 
 
 .subscribe__heading {
@@ -372,7 +371,12 @@ body {
 	box-sizing: border-box;
 	line-height: 50px;
 	margin: 0 0 70px 0;
-} 
+}
+::-webkit-input-placeholder   {color:#fff;}
+::-moz-placeholder            {color:#fff;}/* Firefox 19+ */
+::-moz-placeholder            {color:#fff;}/* Firefox 18- */
+::-ms-input-placeholder       {color:#fff;}
+
 .subscribe__submit {
 	padding: 0;
 	width: 42px;
@@ -451,6 +455,9 @@ body {
   		float: none;
   		padding-top: 15px;
   	}
+  	.cart { 
+	padding: 0;
+	} 
   	.gallery__image { 
 		margin: 0;
 		text-align: center;
@@ -464,6 +471,7 @@ body {
 	.gallery__priceCrossed {
 		padding-bottom: 20px;
 	}
+
 	.container__footer {
 		text-align: center;
 		padding-top: 50px;
