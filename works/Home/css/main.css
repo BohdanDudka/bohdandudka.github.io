@@ -1003,3 +1003,120 @@ body {
     }
     
 }
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    body {
+      padding: 1%;
+    }
+    .blocks__item {
+      margin: 0;
+      max-width: 100%;
+      display: block;
+    }
+    .blocks__item_details {
+      max-width: 361px;
+      margin: 0 auto 20px;
+    }
+    .aboutUs__textFirst {
+         margin: 0 auto 20px;
+         float: none;
+         max-width: 100%;
+     }
+    .aboutUs__textSecond {
+         margin: 0 auto 20px;
+         float: none;
+         max-width: 100%;
+     }
+    .item-image:nth-child(2n) {
+      margin-right: 0;
+    }
+    .images__link {
+      margin: 0 26px 26px 0;
+    }
+    .images__link:nth-child(2n) {
+      margin-right: 0;
+    }
+    .images__link:nth-child(3) {
+      display: inline-block;
+      margin: 0 26px 26px 0;
+    }
+    .BlogPosts__withImg {
+      float: none;
+      margin: 40px 0 20px 0;
+    }
+    .BlogPosts__withText {
+        max-width: 100%;
+        margin: 15px 0 30px;
+    }
+    .item__text {
+      max-width: 100%
+    }
+    .recentList__item {
+      margin-right: 25px;
+    }
+    .ContactUs__first {
+      margin: 0 auto 40px;
+      float: none;
+      text-align: center;
+    }
+    .ContactUs__second {
+      float: none;
+      margin: 0 auto;
+    }
+}
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    body {
+      padding: 1%;
+    }
+    .blocks__item {
+      margin: 0;
+      max-width: 100%;
+      display: block;
+    }
+    .blocks__item_details {
+      max-width: 361px;
+      margin: 0 auto 20px;
+    }
+    .aboutUs__textFirst {
+         margin: 0 auto 20px;
+         float: none;
+         max-width: 100%;
+     }
+    .aboutUs__textSecond {
+         margin: 0 auto 20px;
+         float: none;
+         max-width: 100%;
+     }
+     .item-image:nth-child(3) {
+       margin-right: 0;
+     }
+     .images__link:nth-child(3) {
+       margin: 0 26px 26px 0;
+     }
+     .images__link:nth-child(2) {
+       margin: 0 0px 26px 0;
+     }
+     .images__link:nth-child(4) {
+       margin: 0 0px 26px 0;
+     }
+     .images__link:nth-child(8) {
+       margin: 0 0px 26px 0;
+     }
+     .BlogPosts__withText {
+       max-width: 100%;
+       float: none;
+     }
+     .item__text {
+       max-width: 100%;
+     }
+     .item__text_regular {
+       max-width: 100%;
+       float: none;
+     }
+}
+
